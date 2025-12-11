@@ -20,7 +20,7 @@ Binance WebSocket → Kafka → Candlestick Builder → Redis → WebSocket API 
 
 1. Запустите инфраструктуру (Kafka, Zookeeper, Redis):
 ```bash
-docker-compose up -d
+docker compose up --build
 ```
 
 2. Откройте браузер:
